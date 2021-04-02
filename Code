@@ -6,17 +6,22 @@ tello.connect()
 tello.takeoff()
 # part 3
 tello.move_up(101)
+
 tello.move_forward(182)
 tello.rotate_counter_clockwise(90)
+
 # part 2
 tello.move_forward(270)
 tello.move_down(91)
+
 tello.rotate_clockwise(90)
 tello.move_forward(91)
+
 tello.rotate_clockwise(90)
 tello.move_forward(91)
-tello.move_up(31)
+tello.move_up(31)(5)
 # part 3
+
 tello.rotate_counter_clockwise(90)
 tello.move_forward(182)
 tello.land()
