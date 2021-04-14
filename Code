@@ -7,7 +7,7 @@ tello.takeoff()
 # part 3
 tello.move_up(101)
 
-tello.move_forward(182)
+tello.move_forward(152)
 tello.rotate_counter_clockwise(90)
 
 # part 2
