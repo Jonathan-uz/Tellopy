@@ -4,7 +4,7 @@ tello = Tello()
 
 tello.connect()
 tello.takeoff()
-# part 3
+# part 1
 tello.move_up(101)
 
 tello.move_forward(152)
