@@ -1,5 +1,7 @@
 from djitellopy import Tello
 
+from time import sleep
+
 tello = Tello()
 
 tello.connect()
