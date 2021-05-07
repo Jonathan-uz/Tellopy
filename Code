@@ -7,7 +7,6 @@ tello = Tello()
 tello.connect()
 tello.takeoff()
 # part 1
-tello.move_up(101)
 
 tello.move_forward(152)
 tello.rotate_counter_clockwise(90)
